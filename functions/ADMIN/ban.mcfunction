@@ -1,1 +1,2 @@
-2
+execute @s[tag=staffteam] ~~~ tellraw @a[tag=staffteam] {"rawtext":[{"text":"§¶§eAlpha §b► §d"},{"selector":"@s"},{"text":" §¶§4ERROR §cUser your trying to warn is Staff."}]}
+execute @s[tag=!staffteam] ~~~ function MENU/asset/ban_asset
